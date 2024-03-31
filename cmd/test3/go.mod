@@ -2,6 +2,6 @@ module github.com/kindy/test3/cmd/test3/v2
 
 go 1.22.1
 
-replace github.com/kindy/test3/v2 => ../..
+// replace github.com/kindy/test3/v2 => ../..
 
-require github.com/kindy/test3/v2 v2.0.0-00010101000000-000000000000
+require github.com/kindy/test3/v2 v2.0.1
